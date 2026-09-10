@@ -11,6 +11,7 @@ Builds a pass/fail report and persists it for later retrieval.
 Each stage is a node in a LangGraph state graph, with a single Pydantic model carrying state between them and an audit trail recorded at every step.
 
 Architecture:
+``` text
 Client
   |  POST /generate-testcases
   v
