@@ -1,0 +1,27 @@
+# Environment & secrets
+.env
+*.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# SQLite databases
+*.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+storage.py
+smoke_test.py
+phase1_stub_agents.ipynb
+prompt_experiments.ipynb
+
+llmGeneratesTests.txt
