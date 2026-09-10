@@ -30,7 +30,7 @@ Build report           (pass/fail totals, outcome, persisted)
 Return result to client
 
 The graph is built and compiled in test_orchestration_graph.py using LangGraph's StateGraph. The shared state object, TestRunState, is a Pydantic model holding:
-
+```
 Field	Description
 run_id	Unique identifier for the run (UUID)
 requirement_text	The input requirement
