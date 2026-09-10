@@ -1,0 +1,25 @@
+# Core AI orchestration
+openai==2.30.0
+
+# LangChain ecosystem (modern track)
+langchain==1.0.0
+langgraph==1.0.3
+langchain-core==1.5.3
+langchain-text-splitters==1.1.2
+
+# Web framework + server
+fastapi==0.141.1
+uvicorn==0.52.1
+
+# Data + utilities
+pydantic==2.12.1
+python-multipart==0.0.32
+sqlalchemy==2.0.51
+requests==2.34.2
+python-dotenv==1.2.2
+PyYAML==6.0.3
+
+# Build helpers
+packaging>=24.0
+setuptools>=70.0
+wheel>=0.47.0
